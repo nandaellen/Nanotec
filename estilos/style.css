@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;700&family=Neucha&display=swap');
+
+
+
+body{
+ background-color: white;
+ box-sizing: border-box;
+ margin:0;
+ padding:0;
+ font-family: 'Fira Sans', sans-serif;
+}
+
+header{
+    background-color: #0B2D5B;
+    margin:0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 45px 50px;
+}
+ header > h2{
+    text-align: center;
+    color:white;
+    font-family: 'Neucha', cursiva;
+    padding: 10px;
+    margin-left: 16vw;
+ }
+
+header > a > img {
+    width:80px;
+    height:80px;
+    float:center;
+    background-image: center center/100px no-repeat font-size 0;
+    margin-top: 0;
+    margin:0;
+}
+
+#burguer{
+    background-color: c;
+    color:rgb(203, 248, 252);
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#burguer:hover{
+    color:rgb(203, 248, 252);
+}
+
+#icons{
+    float:right;
+}
+
+menu {
+    display: none;
+}
+
+menu > ul{  
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display:  block;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #0B2D5B;;
+    color:white;
+    border-top: 2px solid gray ;
+}
+
+menu > ul > li > a:hover{
+    background-color: antiquewhite;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+
+}
+
+main{
+    width: 90%;
+    background-color: white;
+    margin-top: 10px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 0%;
+}
+article > h1{
+    margin-bottom: 10px;
+    color:#0B2D5B;
+}
+
+article > h2{
+    padding-bottom: 10px;
+    color:#0B2D5B;   
+}
+
+article > h4{
+    padding-bottom: 20px;
+   
+}
+.images{
+width: 60%;
+height:60%;
+margin: auto;
+display: block;
+}
+
+.images2{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: block;
+}
+.img3{
+    width: 30%;
+    margin: auto;
+    display: block;
+}
+
+
+    
+
+article > p {
+    text-align: justify;
+    margin-bottom: 10px;
+    text-indent: 10px;
+}
+article > p > a{
+    text-align: center;
+    margin-bottom: 10px;
+    text-indent: 10px;
+}
+#pleft{
+    text-align: left;
+}
+.rodape{
+    background-color: #0B2D5B;
+    color:white;
+    font-family: 'Neucha', cursiva;
+    text-align: center;
+    height: 10vh;
+    width: 100vw;
+}
+h5{
+    text-align: center;
+    color: rgb(78, 75, 75);
+}
